@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Website Making Assignment- IT</title>
+   <link rel="stylesheet" href="zakir.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+   </head>
+   <body>
+     <section class="sub-header">
+       <nav>
+         <a href="Zakir.html"><div class="logo-container"><img src="images/logo.png"></div></a>
+         <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+           <li><a href="Zakir.html"class="hero-btn">Home</a></li>
+          <li><a href="about.html"class="hero-btn">About</a></li>
+            <li><a href="students mark.html"class="hero-btn">Schools</a></li>
+            <li><a href="courses"class="hero-btn">Courses</a></li>
+            <li><a href="blog.html"class="hero-btn">Comment</a></li>
+              <li><a href="contact.html"class="hero-btn">Contact</a></li>
+       
+         </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>About Us</h1>
+       </section>
+     <!---------- Contact us  ------------>
+     
+     <section class="Location">
+       <div class="map"> 
+       <img src="images/map.jpg">
+       </div>
+     </section>
+     <section class="contact-us">
+       <div class="row">
+         <div class="contact-col">
+           <div>
+             <i class="fa fa-home"></i>
+             <span>
+               <h5>all oromia districts</h5>
+               <p> Oromia, Ethiopia</p>
+             </span>
+           </div> 
+           <div>
+             <i class="fa fa-phone"></i>
+             <span>
+               <h5>+251 9______________</h5>
+               <p>Monday to saturday, 10am to 6pm</p>
+             </span>
+           </div> 
+           <div>
+             <i class="fa fa-envelope-o"></i>
+             <span>
+               <h5>info@ifa boru special boarding school.com</h5>
+               <p>Email us  your query</p>
+             </span>
+           </div> 
+         </div>
+         <div class="contact-col">
+           <form action="form handler.php" method="post">
+             <input type="text" name="name" placeholder="Enter Your Name" required >
+             <input type="email" name="email" placeholder="Enter Your email address" required >
+             <input type="text" name="subject" placeholder="Enter Your subject" required>
+             <textarea rows="8" name="message"placeholder="message" required></textarea>
+             <button type="submit" class="hero-btn red-btn">Send Message</button>
+           </form>
+         </div>
+       </div>
+     </section>
+       
+       
+     <!------------ footer ----------->
+     <section class="footer">
+       <h4>About Us</h4>
+       <p>our school is .......,.......</p>
+       <p>Made by <i class="fa fa-heart-o"></i>Zakir Abdulmenan</p>
+     </section>
+       
+       
+     <!-------javascript for Toggle Menu------------>
+     
+     <script>
+       var navLinks = document.getElementById("navLinks")
+       function showMenu(){
+         navLinks.style.right = "0";
+       }
+       function hideMenu(){
+         navLinks.style.right = "-200px";
+       }
+       
+     </script>
+   
+   </body>
+</html>

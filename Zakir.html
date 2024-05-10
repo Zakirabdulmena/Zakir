@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Website Making Assignment- IT</title>
+   <link rel="stylesheet" href="zakir.css">
+
+   </head>
+   <body>
+
+    
+     <section class="header">
+       <nav>
+         <a href="Zakir.html">
+           <div class="logo-container"><img src="images/logo.png"></div></a>
+         <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+           <li><a href="Zakir.html"class="hero-btn" >Home</a></li>
+          <li><a href="about.html" class="hero-btn">About</a></li>
+            <li><a href="students mark.html"class="hero-btn"> schools</a></li>
+            <li><a href="courses.html" class="hero-btn">Courses</a></li>
+            <li><a href="blog.html" class="hero-btn">Comment</a></li>
+              <li><a href="contact.html" class="hero-btn">Contact</a></li>
+         </ul>
+           <div class="menu-toggle">
+             <div class="bar"></div>
+             <div class="bar"></div>
+             <div class="bar"></div>
+           </div>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <div class="text-box">
+         <h1>Ifa Boru Special Boarding School</h1>
+         <p>Ifa boru special Boarding Schools are</p>
+         <a href="Registration Form.html"  class="hero-btn">sign up</a>
+       </div>
+       </section>
+       
+       <!------- Course ------->
+       
+       <section class="course">
+         <h1>Subjects</h1>
+         <p>You Learn  many Subjects beginning from grade 9 to 12 including subjects like Forign Languages and Area Study</p>
+         
+         <div class="row">
+           <div class="course-col">
+             <h3>Grade 9-10</h3>
+             <p>in grade 9 you learn many subjects like: math, physics,geography,history,biology,it,chemistry, area study,forign language,.......</p>
+           </div>
+           <div class="course-col">
+             <h3>Grade 11-12</h3>
+             <p> in grade 11-12 you chooce b/n social and natural departement</p>
+           </div>
+         </div>
+       </section>
+       <!---------- campus ---–------->
+       <section class="campus">
+         <h1>Our  schools</h1>
+         <h3>There are 7 ifa boru boarding school in oromia region </h3>
+         <p>Dodola boarding school<br>Ambo boarding school<br>Haramya boarding school<br>Yabello boarding school<br>Najjo boarding school<br>Negelle boarding school<br>Bedelle boarding school</p>
+         <div class="row">
+           <div class="campus-col">
+             <img src="images/dodola(1).png">
+             <div class="layer">
+               <h3>Dodola</h3>
+             </div>
+             </div>
+                        <div class="campus-col">
+             <img src="images/a.png">
+             <div class="layer">
+               <h3>Ambo</h3>
+             </div>
+           </div>
+             
+                      <div class="campus-col">
+             <img src="images/haa.png">
+             <div class="layer">
+               <h3>Haramaya</h3>
+             </div>
+             </div>
+         </div>
+       </section>
+       <!------------ facilities ------->
+       
+       <section class="facilities">
+         <h1>Our Facilities</h1>
+         <p>We provide many facilities like library,gym,digital library.....</p>
+         <div class="row">
+           <div class="facilities-col">
+             <img src="images/lab(1).png">
+             <h3>World Class Library</h3>
+             <p>reading is the feul of the brain</p>
+           </div>
+           <div class="facilities-col">
+             <img src="images/ambo(1).png">
+             <h3>physically health</h3>
+             <p>Modern Gymanasium</p>
+           </div>
+                      <div class="facilities-col">
+             <img src="images/dig.png">
+             <h3>Technologicaly advanced</h3>
+             <p>No Technology no.....</p>
+           </div>
+         </div>
+       </section>
+  <!---------- testimonals --------->
+  <section class="testimonials">
+    <h1>What Our Students Says</h1>
+    <p>very good school</p>
+    <div class="row">
+<div class="testimonial-col">
+  <img src="images/gad.jpg">
+  <div>
+    <p> I Love This School</p>
+    <h3>Gadisa</h3>
+  </div>
+</div>  
+<div class="testimonial-col">
+  <img src="images/na.jpg">
+  <div>
+    <p> Best School in whole Ethiopia</p>
+    <h3>Naol</h3>
+  </div>
+</div>      
+    </div>
+  </section>
+       
+       <!----------- call to action --------------->
+       
+       <section class="cta">
+         <h1>Enroll For Our Various Online Courses<br>Anywhere From The Country</h1>
+         <a href="contact.html" class="hero-btn">CONTACT US</a>
+       </section>
+       
+       
+     <!------------ footer ----------->
+     <section class="footer">
+       <h4>About Us</h4>
+       <p>our school is .......,.......</p>
+       <p>Made by <i class="fa fa-heart-o"></i>Zakir Abdulmenan</p>
+     </section>
+       
+       
+     <!-------javascript for Toggle Menu------------>
+     
+     <script>
+       var navLinks = document.getElementById("navLinks")
+       function showMenu(){
+         navLinks.style.right = "0";
+       }
+       function hideMenu(){
+         navLinks.style.right = "-200px";
+       }
+       
+     </script>
+   </body>
+</html>
